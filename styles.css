@@ -1,0 +1,50 @@
+:root {
+  --primary-dark: darkslategray;
+  --secondary-light: rgb(186, 255, 122);
+}
+
+body {
+  background-color: var(--primary-dark);
+  color: var(--secondary-light);
+  font-size: 1.2rem;
+}
+
+.container {
+  width: 50%;
+  margin: auto;
+  align-content: center;
+}
+
+.heading {
+  text-align: center;
+}
+
+input,
+label {
+  display: block;
+  text-align: center;
+}
+
+input {
+  width: 100%;
+  height: 1.3rem;
+}
+label {
+  margin-top: 1rem;
+}
+
+#check-number {
+  display: block;
+  margin-top: 2rem;
+  margin: 1rem auto;
+  padding: 0.6rem;
+  border-radius: 0.3rem;
+  border-color: var(--secondary-light);
+  background-color: var(--primary-dark);
+  color: var(--secondary-light);
+  font-weight: bold;
+}
+
+#output-message {
+  text-align: center;
+}
